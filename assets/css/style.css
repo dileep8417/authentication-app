@@ -1,0 +1,80 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #E5E5E5;
+  overflow-x: hidden;
+}
+
+body .navbar {
+  padding: 30px;
+}
+
+body .navbar .navbar-brand {
+  width: 100px;
+}
+
+body .navbar ul {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+body .navbar ul li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+body .container {
+  padding: 20px;
+}
+
+body .container .signup #side2 {
+  position: relative;
+  margin-top: -50px;
+}
+
+.loader {
+  width: 140px;
+  height: 140px;
+  border: 7px solid #51E071;
+  position: absolute;
+  z-index: 100;
+  display: block;
+  border-radius: 50%;
+  border-bottom: none;
+  border-left: none;
+  left: 50%;
+  top: 30%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-animation: spin .5s linear infinite;
+          animation: spin .5s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: translateX(-50%) rotate(0deg);
+            transform: translateX(-50%) rotate(0deg);
+  }
+  to {
+    -webkit-transform: translateX(-50%) rotate(360deg);
+            transform: translateX(-50%) rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    -webkit-transform: translateX(-50%) rotate(0deg);
+            transform: translateX(-50%) rotate(0deg);
+  }
+  to {
+    -webkit-transform: translateX(-50%) rotate(360deg);
+            transform: translateX(-50%) rotate(360deg);
+  }
+}
+
+.nav-item:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

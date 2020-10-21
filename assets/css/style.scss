@@ -1,0 +1,61 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #E5E5E5;
+    overflow-x: hidden;
+    .navbar{
+        padding:30px;
+        .navbar-brand{
+            width:100px;
+        }
+        ul{
+            display: inline-block;
+            margin-top: 10px;;
+            li{
+                display: inline-block;
+                margin-right:30px;
+            }
+        }
+    }
+
+    .container{
+        padding:20px;
+        .signup{ 
+            #side2{
+                position: relative;
+                margin-top: -50px;        
+            }
+    
+         }
+
+    }
+    
+}
+
+.loader{
+    width:140px;
+    height:140px;
+    border: 7px solid #51E071;
+    position: absolute;
+    z-index: 100;
+    display:block;
+    border-radius: 50%;
+    border-bottom: none;
+    border-left: none;
+    left:50%;
+    top:30%;
+    transform: translateX(-50%);
+    animation: spin .5s linear infinite;
+}
+
+@keyframes spin {
+    from {transform: translateX(-50%) rotate(0deg);}
+    to {transform: translateX(-50%) rotate(360deg)}
+}
+
+.nav-item:hover{
+    cursor:pointer;
+}
+
