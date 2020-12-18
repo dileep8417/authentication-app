@@ -1,4 +1,4 @@
-# GUVI Web Developer Internship
+
 ## PHP Authentication Web App
 ### Features
 - User Registration
